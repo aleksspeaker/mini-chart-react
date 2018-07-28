@@ -10,6 +10,13 @@
   background: #feffff;
   color: #aaa;
   border-radius: 4px;
+  resize: both;
+  overflow: auto;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
 }
 
 .description {

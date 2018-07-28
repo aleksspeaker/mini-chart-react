@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.mini-chart {
+  margin: 32px auto;
+  width: 300px;
+  border: 1px dotted #eee;
+  background: #feffff;
+  color: #aaa;
+  border-radius: 4px;
+}
+
+.description {
+  margin: auto;
+  max-width: 320px;
+}

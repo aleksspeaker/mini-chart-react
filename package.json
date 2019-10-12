@@ -2,13 +2,13 @@
   "name": "react-svg-pure-chart",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
+  "keywords": ["mini chart", "react", "small chart"],
   "main": "src/index.js",
   "license": "MIT",
   "dependencies": {
-    "react": "16.3.2",
-    "react-dom": "16.3.2",
-    "react-scripts": "1.1.4"
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "react-scripts": "3.2.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,5 +16,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

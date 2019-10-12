@@ -1,6 +1,4 @@
 # mini-chart-react
-React Mini-chart Demo App
-
 
 This demo shows the bare shell react component that returns svg-chart with minimum about of code.
 

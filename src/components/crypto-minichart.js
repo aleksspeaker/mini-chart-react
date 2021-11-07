@@ -21,7 +21,7 @@ function CryptoMiniChart({ symbol = "litecoin", days = 5 }) {
   if (prices.length > 0) {
     return (
       <div className="mini-chart">
-        <MiniChart data={prices} />
+        <MiniChart data={prices} height={10} width={40} strokeWidth={0.35} />
       </div>
     );
   }

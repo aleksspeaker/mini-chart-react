@@ -6,12 +6,35 @@ import "./styles.css";
 export function App() {
   return (
     <div className="App">
-      <h3>BTC</h3>
-      <CryptoMiniChart symbol="bitcoin" days="5" />
-      <h3>XRP</h3>
-      <CryptoMiniChart symbol="ripple" days="20" />
-      <h3>LTC</h3>
-      <CryptoMiniChart symbol="litecoin" days="15" />
+      <table>
+        <tr>
+          <td>
+            <h3>BTC</h3>
+          </td>
+          <td></td>
+          <td>
+            <CryptoMiniChart symbol="bitcoin" days="5" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>XRP</h3>
+          </td>
+          <td></td>
+          <td>
+            <CryptoMiniChart symbol="ripple" days="5" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>LTC</h3>
+          </td>
+          <td></td>
+          <td>
+            <CryptoMiniChart symbol="litecoin" days="5" />
+          </td>
+        </tr>
+      </table>
     </div>
   );
 }

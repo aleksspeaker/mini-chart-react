@@ -11,5 +11,4 @@ Feel free to use and modify ;)
 ### crypto mini-charts
 
 added realtime crypto integration for minicharts
-![Demo](./minicharts-crypto.png)
-
+[](./minicharts-crypto.png)

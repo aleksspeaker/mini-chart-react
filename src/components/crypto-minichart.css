@@ -1,0 +1,20 @@
+.mini-chart {
+  margin: 32px auto;
+  width: 200px;
+  border: 1px dotted #eee;
+  background: #feffff;
+  color: #aaa;
+  border-radius: 4px;
+  resize: both;
+  overflow: auto;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+.description {
+  margin: auto;
+  max-width: 320px;
+}

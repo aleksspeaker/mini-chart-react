@@ -38,7 +38,7 @@ class MiniChart extends React.Component {
      * Transform all passed-in values in to relative ones
      */
     const max = Math.max(...this.props.data);
-    const relativeValues = this.props.data.map(value => value / max);
+    const relativeValues = this.props.data.map((value) => value / max);
 
     /**
      * The maximum relative difference between provided data

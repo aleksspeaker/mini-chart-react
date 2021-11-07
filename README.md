@@ -7,3 +7,7 @@ Thanks to it's minimalistic nature, it's ideal for embeding into tables, lists o
 Enjoy!
 
 Feel free to use and modify ;)
+
+### crypto mini-charts
+
+added realtime crypto integration for minicharts
